@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2abf6e71-bafa-4853-96e8-51a692b90dd5" name="linie - aquavit">
+        <fileTransfer rootFolder="/var/www/vhosts/linie.staging.yoyadash.com" accessType="SFTP" host="staging.yoyadash.com" port="22" sshConfigId="3e0f4910-a5ab-481c-8466-96955751e534" sshConfig="root@staging.yoyadash.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
